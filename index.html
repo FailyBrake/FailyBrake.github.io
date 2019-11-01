@@ -26,22 +26,32 @@
       position: absolute;
     }
 
-    .btn {
-      position: absolute;
-      left: 0;
-      right: 0;
-      bottom: 22px;
+    .download-box {
+      position: fixed;
+      bottom: 10%;
       text-align: center;
-      z-index: 999;
+    }
+
+    .download-box a {
+      cursor: pointer;
+    }
+
+    .img-btn {
+      width: 80%;
+      cursor: pointer;
+      display: inline-block;
     }
 
   </style>
 </head>
 <body>
   <div class="box">
-    <a href="https://app.adjust.com/ggqy6vr" target="_blank">
-      <img class="img" src="./index.jpg" alt="" srcset="">
-    </a>
+      <img class="img" src="./index.jpg"  alt="" srcset="">
+    <div class="download-box">
+      <a href="https://app.adjust.com/ggqy6vr" target="_blank">
+        <img class="img-btn btn" src="./download.png" alt="">
+      </a>
+    </div>
     <img src="https://view.adjust.com/impression/ggqy6vr" alt="">
   </div>
 </body>
